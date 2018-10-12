@@ -14,8 +14,12 @@
 
 # 撤销删除
 ## 如果之前add到暂存区，可以直接
-    - git checkout -- <file
+    - git checkout -- <file>
 
 ## 不过如果是昨天删的，那就只能
     - git reset --hard <id>>
     
+
+# git查看某个文件的修改历史
+    - git log --pretty=oneline 文件名
+    - git show 356f6def9d3fb7f3b9032ff5aa4b9110d4cca87e
