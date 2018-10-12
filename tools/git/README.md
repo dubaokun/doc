@@ -23,3 +23,4 @@
 # git查看某个文件的修改历史
     - git log --pretty=oneline 文件名
     - git show 356f6def9d3fb7f3b9032ff5aa4b9110d4cca87e
+    - git blame file
